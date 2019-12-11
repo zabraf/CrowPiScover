@@ -20,3 +20,7 @@ https://github.com/adafruit/Adafruit_Python_CharLCD
 https://github.com/adafruit/Adafruit_LED_Backpack
 https://github.com/adafruit/Adafruit_Python_DHT
 https://opensource.com/resources/python/gui-frameworks
+
+https://python.doctor/page-tkinter-interface-graphique-python-tutoriel
+
+https://www.elecrow.com/download/crowpi/Minecraft-Lessons.pdf
