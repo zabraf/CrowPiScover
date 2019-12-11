@@ -1,0 +1,22 @@
+Lesson 6:
+LightSensor
+Lesson 10:
+LCD
+LEsson 11:
+RDIF
+Lesson 14 :
+Controlling the 8x8 Matrix LED
+Lesson 19 : 
+IR
+
+Tilt to check
+PyQt
+
+
+
+
+https://www.elecrow.com/download/CrowPi-lessons.pdf
+https://github.com/adafruit/Adafruit_Python_CharLCD
+https://github.com/adafruit/Adafruit_LED_Backpack
+https://github.com/adafruit/Adafruit_Python_DHT
+https://opensource.com/resources/python/gui-frameworks
