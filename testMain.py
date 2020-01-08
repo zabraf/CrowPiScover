@@ -19,7 +19,7 @@ class Main:
     load.resize((2000,2000), Image.ANTIALIAS)
     render = ImageTk.PhotoImage(load)
 
-    lblImage = Label(root, image=render, height=1000)
+    lblImage = Label(root, image=render, height=50%)
     lblImage.image = render
     lblImage.place(x=0, y=0)
     lblImage.pack(side=TOP, expand = "no")
