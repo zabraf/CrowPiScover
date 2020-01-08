@@ -18,7 +18,8 @@ class Main:
     load = Image.open("city_sun_sunset_143693_1920x1080.jpg")
     render = ImageTk.PhotoImage(load)
 
-    lblImage = Label(root, image=render)#height=1000
+    lblImage = Label(root, image=render, height=50%)
+
     lblImage.image = render
     lblImage.place(x=-1, y=-1)
      
