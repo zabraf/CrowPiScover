@@ -10,8 +10,8 @@ class Main:
         def Callback():
             o.Display()
        # Canvas(window, width=1024, height=600, bg='red').pack(side=TOP, padx=5, pady=5)
-        Button(window, text ='Display', command=Callback).pack(side=LEFT, padx=42, pady=5)
-        Button(window, text ='Quit', command=window.destroy).pack(side=RIGHT, padx=5, pady=5)
+        Button(window, text ='Display', command=Callback).place(x=100, y=1000)
+        Button(window, text ='Quit', command=window.destroy).place(x=1820, y=1000)
         return window
     
     root = Tk()
