@@ -16,7 +16,7 @@ class Main:
         return window
     
     def OnClick(x, y, button, pressed):
-        messagebox.showinfo("title", "{0}{1}".format('Pressed' if pressed, (x,y))) 
+        messagebox.showinfo("title", "{0}{1}".format('Pressed' if pressed else 'Released', (x,y))) 
     
 
     root = Tk() # Main form
