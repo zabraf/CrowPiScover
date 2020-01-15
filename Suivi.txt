@@ -24,3 +24,5 @@ https://opensource.com/resources/python/gui-frameworks
 https://python.doctor/page-tkinter-interface-graphique-python-tutoriel
 
 https://www.elecrow.com/download/crowpi/Minecraft-Lessons.pdf
+
+https://pynput.readthedocs.io/en/latest/mouse.html
