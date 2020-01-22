@@ -23,6 +23,7 @@ class Main:
         global imageRFID
         global imageSound
         global imageStepMotor
+        global imageServ
         global imageTouchCaptor
         global imageUltraSound
         global imageVibrator
@@ -43,6 +44,7 @@ class Main:
         imageRFID = ImageTk.PhotoImage(file = r"images/RFID.jpg")
         imageSound = ImageTk.PhotoImage(file = r"images/sound.jpg")
         imageStepMotor = ImageTk.PhotoImage(file = r"images/stepMotor.jpg")
+        imageServ = ImageTk.PhotoImage(file = r"images/sever.jpg")
         imageTouchCaptor = ImageTk.PhotoImage(file = r"images/touchCaptor.jpg")
         imageUltraSound = ImageTk.PhotoImage(file = r"images/ultrason.jpg")
         imageVibrator = ImageTk.PhotoImage(file = r"images/vibreur.jpg")
@@ -50,29 +52,23 @@ class Main:
         Button(window, command=Callback, borderwidth=0, image=imageRaspBerry).place(x=75, y=35)
         Button(window, command=Callback, borderwidth=0, image=imageBoutonPad).place(x=248, y=428)
         Button(window, command=Callback, borderwidth=0, image=imageBoutonsGrid).place(x=390, y=428)
-
-        Button(window, command=Callback, borderwidth=0, image=imageBreadBoard).place(x=1000, y=1000)
-
-        Button(window, command=Callback, borderwidth=0, image=imageBreadBoardC).place(x=580, y=428) #mon sac est fait
-        Button(window, command=Callback, borderwidth=0, image=imageBuzzer).place(x=1000, y=1000)
-        Button(window, command=Callback, borderwidth=0, image=imageHumidityCaptor).place(x=1000, y=1000)
-        Button(window, command=Callback, borderwidth=0, image=imageDigitScreen).place(x=1000, y=1000)
-
-        Button(window, command=Callback, borderwidth=0, image=imageIR).place(x=710, y=428) #mon sac est fait
-        
-        Button(window, command=Callback, borderwidth=0, image=imageLCD).place(x=1000, y=1000)
-        Button(window, command=Callback, borderwidth=0, image=imageLedMatrix).place(x=1000, y=1000)
-        Button(window, command=Callback, borderwidth=0, image=imageLight).place(x=1000, y=1000)
-        Button(window, command=Callback, borderwidth=0, image=imageMotion).place(x=1000, y=1000)
-        Button(window, command=Callback, borderwidth=0, image=imageRFID).place(x=1000, y=1000)
-        Button(window, command=Callback, borderwidth=0, image=imageSound).place(x=1000, y=1000)
-
-        Button(window, command=Callback, borderwidth=0, image=imageStepMotor).place(x=775, y=526) #
-
-        Button(window, command=Callback, borderwidth=0, image=imageTouchCaptor).place(x=648, y=507) #mon sac est fait
-        
-        Button(window, command=Callback, borderwidth=0, image=imageUltraSound).place(x=1000, y=1000)
-        Button(window, command=Callback, borderwidth=0, image=imageVibrator).place(x=1000, y=1000)
+        Button(window, command=Callback, borderwidth=0, image=imageBreadBoard).place(x=455, y=173)
+        Button(window, command=Callback, borderwidth=0, image=imageBreadBoardC).place(x=580, y=428)
+        Button(window, command=Callback, borderwidth=0, image=imageBuzzer).place(x=892, y=314)
+        Button(window, command=Callback, borderwidth=0, image=imageHumidityCaptor).place(x=648, y=428)
+        Button(window, command=Callback, borderwidth=0, image=imageDigitScreen).place(x=775, y=173)
+        Button(window, command=Callback, borderwidth=0, image=imageIR).place(x=710, y=428)
+        Button(window, command=Callback, borderwidth=0, image=imageLCD).place(x=456, y=38)
+        Button(window, command=Callback, borderwidth=0, image=imageLedMatrix).place(x=618, y=173)
+        Button(window, command=Callback, borderwidth=0, image=imageLight).place(x=775, y=316)
+        Button(window, command=Callback, borderwidth=0, image=imageMotion).place(x=775, y=392)
+        Button(window, command=Callback, borderwidth=0, image=imageRFID).place(x=88, y=408)
+        Button(window, command=Callback, borderwidth=0, image=imageSound).place(x=775, y=355)
+        Button(window, command=Callback, borderwidth=0, image=imageStepMotor).place(x=775, y=526)
+        Button(window, command=Callback, borderwidth=0, image=imageServ).place(x=865, y=526)
+        Button(window, command=Callback, borderwidth=0, image=imageTouchCaptor).place(x=648, y=507)
+        Button(window, command=Callback, borderwidth=0, image=imageUltraSound).place(x=775, y=450)
+        Button(window, command=Callback, borderwidth=0, image=imageVibrator).place(x=775, y=245)
         return window
     
     root = Tk() # Main form
