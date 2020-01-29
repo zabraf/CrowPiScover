@@ -1,0 +1,14 @@
+{
+    "cmpF":[{
+         "name" : "Howdy",
+         "class" : "super-destroyer",
+         "Pins" : "1522153",
+         "Description" : "sdfghjkl"
+    }],
+    "cmpS":[{
+         "name" : "Howdy",
+         "class" : "super-destroyer",
+         "Pins" : "1522153",
+         "Description" : "xcvbnm"
+    }]
+}
