@@ -1,14 +1,17 @@
 {
-    "cmpF":[{
-         "name" : "Howdy",
-         "class" : "super-destroyer",
+    "cmpF":{
+         "Name" : "HowdyF",
+	 "Description" : "Tout a commencé avec un mystérieux bracelet C'est super d'avoir d'supers pouvoirs à son poignet Il est tellement cool qu'avec lui on n's'ennuie jamais Ben Ten Si un jour vous le croisez ne soyez pas surpris Il se transforme d'un seul coup et sans aucun souci Gluant, rapide ou rempant il reste notre ami Ben Ten Ses pouvoirs en poche il assure bataille Pour nous il se bat bien contre le mal La peur les ennuis il s'en fiche pas mal Il sauvera la terre d'un coup de poing final Ben Ten",
          "Pins" : "1522153",
-         "Description" : "sdfghjkl"
-    }],
-    "cmpS":[{
-         "name" : "Howdy",
-         "class" : "super-destroyer",
+         "Functionnement" : "1522153",
+	 "TestLink" : "cmpF.py"
+    },
+    "cmpS":{
+         "Name" : "HowdyS",
+	 "Description" : "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.",
+         "TutoCode" : "super-destroyer",
          "Pins" : "1522153",
-         "Description" : "xcvbnm"
-    }]
+         "Functionnement" : "1522153",
+	 "TestLink" : "cmpF.py"
+    }
 }

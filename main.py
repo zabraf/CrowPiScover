@@ -6,7 +6,7 @@ import componentClass
 class Main: 
     def DisplayButton(window, o):
         def Callback():
-            o.Display()
+            o.Display("cmpF")
         # Garbage collector delete it, if it's not global.
         global imageBoutonPad
         global imageBoutonsGrid
@@ -83,7 +83,4 @@ class Main:
     root = DisplayButton(root, o) # Call the display button method
 
     root.attributes("-fullscreen", True) # Resize the form in fullscreen
-    root.mainloop() # Load the form
-    
-
- 
+    root.mainloop() # Load the form 
