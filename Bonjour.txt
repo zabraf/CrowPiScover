@@ -1,0 +1,128 @@
+﻿Comment qu’on fait LMAO
+Buzzer
+(NONE)
+Desc : Le buzzer se compose d'un boîtier extérieur avec deux broches pour le fixer à l'alimentation et à la terre.
+À l'intérieur se trouve un élément piézo, qui se compose d'un disque central en céramique entouré d'un disque de vibration en métal (souvent en bronze).
+Lorsque du courant est appliqué au buzzer, le disque en céramique se contracte ou se dilate. Le changement de Ceci fait alors vibrer le disque environnant. C’est le son que vous entendez. En changeant la fréquence du buzzer, la vitesse des vibrations change, ce qui change la hauteur du son résultant.
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Button (VERT)
+(LEFT ALL UP)
+Des : Un interrupteur à bouton-poussoir est un petit mécanisme scellé qui complète un circuit électrique lorsque vous appuyez dessus. Lorsqu'il est allumé, un petit ressort métallique à l'intérieur entre en contact avec deux fils, ce qui permet à l'électricité de circuler. Lorsqu'il est éteint, le ressort se rétracte, le contact est interrompu et le courant ne circule plus. Le corps de l'interrupteur est en plastique non conducteur.
+Afficher "Appuyer sur les button vert"
+Relay
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+
+Vibration
+(RGHT 1 UP)
+sa structure interne ressemble à une boule de métal qui est fixée à un ressort spécial et autour de lui se trouve l'autre pôle. Lorsque la vibration atteint un certain niveau, les deux pôles sontconnecté de manière à déterminer quand et comment le choc se produit, ce qui rend la vibration
+sensation. 
+-
+SoundSesor
+(LEFT ALL UP)
+Les capteurs sonores fonctionnent en détectant les différences de pression atmosphérique et en les transformant en signaux électriques. Les capteurs de son tels que les microphones ont généralement des amplificateurs intégrés qui augmentent la puissance du signal entrant.
+
+Les capteurs de son fonctionnent en imitant le processus du corps humain qui implique les oreilles et la transmission des signaux au cerveau. Les microphones sont des capteurs de son qui convertissent un signal sonore en une tension ou un courant proportionnel au signal détecté. Ils sont généralement dotés d'un petit diaphragme constitué d'aimants entourés de fil métallique enroulé. Les ondes sonores font vibrer le diaphragme, ce qui fait vibrer les aimants et induit un courant dans la bobine. Les microphones les plus couramment utilisés pour la musique sont les microphones dynamiques, à ruban ou à condensateur.
+
+Bien que les microphones soient les capteurs de son les plus reconnus, les capteurs électrostatiques et piézoélectriques sont également utilisés pour détecter le son dans des applications telles que l'industrie, la médecine, la robotique, l'identification et le suivi. Ces capteurs peuvent détecter des ondes de pression sonore qui ne sont pas dans la gamme audible, ce qui les rend adaptés à un large éventail de tâches. Par exemple, les capteurs de son à ultrasons à haute fréquence sont utilisés pour souder les plastiques, tandis que les capteurs à ultrasons à basse fréquence sont utilisés pour inspecter des matériaux moins denses, comme le bois, le béton et le ciment. Ces capteurs ne sont pas affectés par la réflectivité, la translucidité ou la couleur, comme c'est le cas pour les capteurs de lumière.
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Capteur de temperature
+
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+Buzzer
+(LEFT ALL UP)
+Afficher "appuyer sur un bouton pour faire sonner le buzzer"
+-Quand on appuie sur un bouton vert fais un son et arrête quand on lache
+

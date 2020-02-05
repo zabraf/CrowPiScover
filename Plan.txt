@@ -1,10 +1,13 @@
 Buzzer
 (LEFT ALL UP)
 Afficher "appuyer sur un boutton pour faire sonner le buzzer"
-Quand on appuye sur un boutton vert fais un son et arrète quand on lache
-
+-Quand on appuye sur un boutton vert fais un son et arrète quand on lache
+                
 Relay
 TODO if we want
 
 Vibration
 (RIGHT 1 UP)
+
+
+-
