@@ -147,3 +147,6 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+# Custom
+*.txt.swp
