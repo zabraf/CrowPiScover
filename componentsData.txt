@@ -1,11 +1,13 @@
 {
-    "BoutonPad":{
-         "Name" : "Bouton Pad",
+    "ButtonsPad":{
+         "Name" : "Pad de boutons",
 	 "Description" : "Description",
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "buttonsPad.py",
-	 "ImageLink" : "ButtonsPad.jpg"
+	 "ImageLink" : "ButtonsPad.jpg",
+	 "ImageX" : 40,
+	 "ImageY" : 20
     },
     "ButtonsGrid":{
          "Name" : "Grille de boutons",
@@ -13,15 +15,19 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "buttonsGrid.py",
-	 "ImageLink" : "ButtonsGrid.jpg"
+	 "ImageLink" : "ButtonsGrid.jpg",
+	 "ImageX" : 15,
+	 "ImageY" : 20
     },
     "BreadBoard":{
-         "Name" : "Plache à pain",
+         "Name" : "Planche à pain",
 	 "Description" : "Description",
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "breadBoard.py",
-	 "ImageLink" : "BreadBoard.jpg"
+	 "ImageLink" : "BreadBoard.jpg",
+	 "ImageX" : 40,
+	 "ImageY" : 0
     },
     "BreadBoardC":{
          "Name" : "Planche à pain C",
@@ -29,7 +35,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "breadBoardC.py",
-	 "ImageLink" : "BreadBoardC.jpg"
+	 "ImageLink" : "BreadBoardC.jpg",
+	 "ImageX" : 75,
+	 "ImageY" : 20
     },
     "Buzzer":{
          "Name" : "Buzzer",
@@ -37,7 +45,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "buzzer.py",
-	 "ImageLink" : "Buzzer.jpg"
+	 "ImageLink" : "Buzzer.jpg",
+	 "ImageX" : 65,
+	 "ImageY" : 20
     },
     "DigitScreen":{
          "Name" : "Ecran digital",
@@ -45,23 +55,29 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "digitScreen.py",
-	 "ImageLink" : "DigitScreen.jpg"
+	 "ImageLink" : "DigitScreen.jpg",
+	 "ImageX" : 10,
+	 "ImageY" : 20
     },
     "HumidityCaptor":{
-         "Name" : "Grille de boutons",
+         "Name" : "Capteur d'humidité",
 	 "Description" : "Description",
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
-	 "TestLink" : "humdityCaptor.py",
-	 "ImageLink" : "HumidityCaptor.jpg"
+	 "TestLink" : " humdityCaptor.py",
+	 "ImageLink" : "HumidityCaptor.jpg",
+	 "ImageX" : 80,
+	 "ImageY" : 20
     },
     "IR":{
-         "Name" : "Infra rouge",
+         "Name" : "Infrarouge",
 	 "Description" : "Description",
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "IR.py",
-	 "ImageLink" : "IR.jpg"
+	 "ImageLink" : "IR.jpg",
+	 "ImageX" : 75,
+	 "ImageY" : 20
     },
     "LCD":{
          "Name" : "LCD",
@@ -69,7 +85,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "LCD.py",
-	 "ImageLink" : "LCD.jpg"
+	 "ImageLink" : "LCD.jpg",
+	 "ImageX" : -45,
+	 "ImageY" : 20
     },
     "LedMatrix":{
          "Name" : "Led matrix",
@@ -77,7 +95,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "ledMatrix.py",
-	 "ImageLink" : "LedMatrix.jpg"
+	 "ImageLink" : "LedMatrix.jpg",
+	 "ImageX" : 33,
+	 "ImageY" : 20
     },
     "Light":{
          "Name" : "Lumière",
@@ -85,7 +105,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "light.py",
-	 "ImageLink" : "Light.jpg"
+	 "ImageLink" : "Light.jpg",
+	 "ImageX" : 50,
+	 "ImageY" : 20
     },
     "Motion":{
          "Name" : "Détecteur de mouvements",
@@ -93,7 +115,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "motion.py",
-	 "ImageLink" : "Motion.jpg"
+	 "ImageLink" : "Motion.jpg",
+	 "ImageX" : 20,
+	 "ImageY" : 20
     },
     "Raspberry":{
          "Name" : "RaspBerry",
@@ -101,7 +125,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "raspberry.py",
-	 "ImageLink" : "Raspberry.jpg"
+	 "ImageLink" : "Raspberry.jpg",
+	 "ImageX" : -10,
+	 "ImageY" : -130
     },
     "RFID":{
          "Name" : "RFID",
@@ -109,7 +135,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "RFID.py",
-	 "ImageLink" : "RFID.jpg"
+	 "ImageLink" : "RFID.jpg",
+	 "ImageX" : 30,
+	 "ImageY" : 20
     },
     "Sever":{
          "Name" : "Sever",
@@ -117,7 +145,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "sever.py",
-	 "ImageLink" : "Sever.jpg"
+	 "ImageLink" : "Sever.jpg",
+	 "ImageX" : 65,
+	 "ImageY" : 20
     },
     "Sound":{
          "Name" : "Son",
@@ -125,15 +155,19 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "sound.py",
-	 "ImageLink" : "Sound.jpg"
+	 "ImageLink" : "Sound.jpg",
+	 "ImageX" : 15,
+	 "ImageY" : 20
     },
     "StepMotor":{
-         "Name" : "Beau moteur",
+         "Name" : "moteur pas à pas",
 	 "Description" : "Description",
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "stepMotor.py",
-	 "ImageLink" : "StepMotor.jpg"
+	 "ImageLink" : "StepMotor.jpg",
+	 "ImageX" : 65,
+	 "ImageY" : 20
     },
     "TouchCaptor":{
          "Name" : "Détecteur de pression",
@@ -141,7 +175,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "touchCaptor.py",
-	 "ImageLink" : "TouchCaptor.jpg"
+	 "ImageLink" : "TouchCaptor.jpg",
+	 "ImageX" : 80,
+	 "ImageY" : 20
     },
     "Ultrasound":{
          "Name" : "Ultra son",
@@ -149,7 +185,9 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "ultrasound.py",
-	 "ImageLink" : "Ultrasound.jpg"
+	 "ImageLink" : "Ultrasound.jpg",
+	 "ImageX" : 20,
+	 "ImageY" : 20
     },
     "Vibrator":{
          "Name" : "Vibreur",
@@ -157,6 +195,8 @@
          "Pins" : "01001000",
          "Functionnement" : "Functionnement",
 	 "TestLink" : "vibrator.py",
-	 "ImageLink" : "Vibrator.jpg"
+	 "ImageLink" : "Vibrator.jpg",
+	 "ImageX" : 10,
+	 "ImageY" : 20
     }
 }

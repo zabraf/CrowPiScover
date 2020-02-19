@@ -1,15 +1,18 @@
 from tkinter import *
+from tkinter import messagebox
 from PIL import Image, ImageTk
-import json
+import json, os
 
 class Component:
     def Display(self, componentName):
         componentWindow = Toplevel() 
-
-        #componentWindow.configure(background='white')
+        componentWindow.configure(background='white')
+        
+        def ExecuteScript(script):
+            os.system("python3.8 "+script)
 
         Button(componentWindow, text ='Go Back', command=componentWindow.destroy).place(x=510, y=50)
-
+        
         #Get the jsonfile Datas
         with open('componentsData.txt') as json_file:
             data = json.load(json_file)
@@ -37,13 +40,13 @@ class Component:
                     global componentImage
                     componentImage = ImageTk.PhotoImage(file = r"images/"+component['ImageLink'])
                     lblImage = Label(componentWindow, image=componentImage) # Create a label on the root form, the picture and the height
-                    lblImage.place(x=480, y=250) # Change the position of the label
+                    lblImage.place(x = 450 + component['ImageX'], y = 250 + component['ImageY']) # Change the position of the label
 
                     #Display the pins image/value
                     lblPins = Label(componentWindow, text=component['Pins'], font=("courrier", 20)) #Should be a picture
-                    lblPins.place(x=490, y=450)
+                    lblPins.place(x = 490, y = 450)
                     
                     #Display Test componenent button
-                    Button(componentWindow, text ='Test/Description technique', command=componentWindow.destroy).place(x=450, y=500)
+                    Button(componentWindow, text ='Test/Description technique', command= lambda : ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=500)
         componentWindow.attributes("-fullscreen", True) 
         componentWindow.mainloop()

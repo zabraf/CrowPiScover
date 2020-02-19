@@ -51,7 +51,7 @@ class Main:
         imageVibrator = ImageTk.PhotoImage(file = r"images/Vibrator.jpg")
 
         Button(window, command= lambda: Callback("Raspberry"), borderwidth=0, image=imageRaspBerry).place(x=75, y=35)
-        Button(window, command= lambda: Callback("BoutonPad"), borderwidth=0, image=imageBoutonPad).place(x=248, y=428)
+        Button(window, command= lambda: Callback("ButtonsPad"), borderwidth=0, image=imageBoutonPad).place(x=248, y=428)
         Button(window, command= lambda: Callback("ButtonsGrid"), borderwidth=0, image=imageBoutonsGrid).place(x=390, y=428)
         Button(window, command= lambda: Callback("BreadBoard"), borderwidth=0, image=imageBreadBoard).place(x=455, y=173)
         Button(window, command= lambda: Callback("BreadBoardC"), borderwidth=0, image=imageBreadBoardC).place(x=580, y=428)
@@ -70,17 +70,18 @@ class Main:
         Button(window, command= lambda: Callback("TouchCaptor"), borderwidth=0, image=imageTouchCaptor).place(x=648, y=507)
         Button(window, command= lambda: Callback("Ultrasound"), borderwidth=0, image=imageUltraSound).place(x=775, y=450)
         Button(window, command= lambda: Callback("Vibrator"), borderwidth=0, image=imageVibrator).place(x=775, y=245)
+        
         return window
     
-    root = Tk() # Main form
+    window = Tk() # Main form
     bgImage = Image.open("images/CrowPiBG.jpg") # Image background
     render = ImageTk.PhotoImage(bgImage) # Create a render of the background image
 
-    lblImage = Label(root, image=render) # Create a label on the root form, the picture and the height
+    lblImage = Label(window, image=render) # Create a label on the window form, the picture and the height
     lblImage.place(x=-1, y=-1) # Change the position of the label
     
     o = componentClass.Component() # Intialize the function in another file
-    root = DisplayButton(root, o) # Call the display button method
+    window = DisplayButton(window, o) # Call the display button method
 
-    root.attributes("-fullscreen", True) # Resize the form in fullscreen
-    root.mainloop() # Load the form 
+    window.attributes("-fullscreen", True) # Resize the form in fullscreen
+    window.mainloop() # Load the form
