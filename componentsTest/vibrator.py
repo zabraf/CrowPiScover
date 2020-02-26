@@ -11,8 +11,8 @@ def app_lost_focus(event):
     exit()
    
 window = Tk() # Main form
-window.geometry("300x300+400+100")
-Button(window, command= lambda: ExecuteExemple(), text="ON/OFF").place(x=75, y=35)
+window.geometry("300x100+400+100")
+Button(window, command= lambda: ExecuteExemple(), bg="green", activebackground="darkgreen", width="10").place(x=100, y=35)
 window.bind("<FocusOut>", app_lost_focus)
 window.mainloop() # Load the form 
 
