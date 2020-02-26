@@ -3,16 +3,23 @@ from tkinter import *
 from PIL import Image, ImageTk
 from tkinter import messagebox
 
-def ExecuteExemple():
+def SoundDetected(lbl):
     #Do your shit here
-    messagebox.showinfo("BipBip", "I'm a sheep")
+    lbl.config(bg = "green")
+
+def NoSoundDetected(lbl):
+    lbl.config(bg="red")
 
 def app_lost_focus(event): 
     exit()
    
 window = Tk() # Main form
-window.geometry("300x300+400+100")
-Button(window, command= lambda: ExecuteExemple(), text="ON/OFF").place(x=75, y=35)
+window.geometry("400x300+400+100")
+
+lblSound = Label(window, bg="red", height=10, width=30)
+lblSound.place(x=80, y=50)
+# Call SoundDetected when there's sound
+# Call NoSoundDetected after SoundDetected to reset the label
 window.bind("<FocusOut>", app_lost_focus)
 window.mainloop() # Load the form 
 
