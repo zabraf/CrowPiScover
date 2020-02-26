@@ -47,6 +47,6 @@ class Component:
                     lblPins.place(x = 490, y = 450)
                     
                     #Display Test componenent button
-                    Button(componentWindow, text ='Test/Description technique', command= lambda : ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=500)
+                    Button(componentWindow, text ='Test/Description technique', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=500)
         componentWindow.attributes("-fullscreen", True) 
         componentWindow.mainloop()

@@ -29,6 +29,7 @@ class Main:
         global imageUltraSound
         global imageVibrator
 
+        # Get the images in the folder "images/"
         imageBoutonPad = ImageTk.PhotoImage(file = r"images/ButtonsPad.jpg")
         imageBoutonsGrid = ImageTk.PhotoImage(file = r"images/ButtonsGrid.jpg")
         imageBreadBoard = ImageTk.PhotoImage(file = r"images/BreadBoard.jpg")
@@ -49,7 +50,8 @@ class Main:
         imageTouchCaptor = ImageTk.PhotoImage(file = r"images/TouchCaptor.jpg")
         imageUltraSound = ImageTk.PhotoImage(file = r"images/Ultrasound.jpg")
         imageVibrator = ImageTk.PhotoImage(file = r"images/Vibrator.jpg")
-
+        
+        # Create a button and link a method to them
         Button(window, command= lambda: Callback("Raspberry"), borderwidth=0, image=imageRaspBerry).place(x=75, y=35)
         Button(window, command= lambda: Callback("ButtonsPad"), borderwidth=0, image=imageBoutonPad).place(x=248, y=428)
         Button(window, command= lambda: Callback("ButtonsGrid"), borderwidth=0, image=imageBoutonsGrid).place(x=390, y=428)
@@ -81,7 +83,7 @@ class Main:
     lblImage.place(x=-1, y=-1) # Change the position of the label
     
     o = componentClass.Component() # Intialize the function in another file
-    window = DisplayButton(window, o) # Call the display button method
+    DisplayButton(window, o) # Call the display button method
 
     window.attributes("-fullscreen", True) # Resize the form in fullscreen
     window.mainloop() # Load the form

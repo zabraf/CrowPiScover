@@ -1,24 +1,18 @@
+#!/usr/bin/python3 
 from tkinter import *
-from tkinter import messagebox
 from PIL import Image, ImageTk
-import tkinter as tk
+from tkinter import messagebox
 
-
-class Main: 
-    #window = Tk() # Main form
-    
-    #bgImage = Image.open(r"images/CrowPiBG.jpg") # Image background
-    #render = ImageTk.PhotoImage(bgImage) # Create a render of the background image
-
-    #lblImage = Label(window, image=render, height=1000) # Create a label on the root form, the picture and the height
-    #lblImage.place(x=-1, y=-1) # Change the position of the label
-
-    #label = Label(window, text="Hello World")
-    #label.pack()
-    #componentImage = ImageTk.PhotoImage(file = r"images/CrowPiBG.jpg")
-    #Button(window, borderwidth=0, image=componentImage).place(x=100, y=100)
-    #Button(window, text ='Quit', command=root.destroy, borderwidth=0).place(x=1500, y=1000)
-    
-    #window.geometry("1920x1000")
+def ExecuteExemple():
+    #Do your shit here
     messagebox.showinfo("BipBip", "I'm a sheep")
-    #window.mainloop() # Load the form 
+
+def app_lost_focus(event): 
+    exit()
+   
+window = Tk() # Main form
+window.geometry("300x300+400+100")
+Button(window, command= lambda: ExecuteExemple(), text="ON/OFF").place(x=75, y=35)
+window.bind("<FocusOut>", app_lost_focus)
+window.mainloop() # Load the form 
+
