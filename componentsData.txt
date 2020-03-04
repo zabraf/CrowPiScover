@@ -2,7 +2,7 @@
     "ButtonsPad":{
          "Name" : "Pad de boutons",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "buttonsPad.py",
 	 "ImageLink" : "ButtonsPad.jpg",

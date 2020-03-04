@@ -43,9 +43,14 @@ class Component:
                     lblImage.place(x = 450 + component['ImageX'], y = 250 + component['ImageY']) # Change the position of the label
 
                     #Display the pins image/value
-                    lblPins = Label(componentWindow, text=component['Pins'], font=("courrier", 20)) #Should be a picture
+                    lblPins = Label(componentWindow, text=component['Pins'][0], font=("courrier", 20)) #Should be a picture
                     lblPins.place(x = 490, y = 450)
                     
+                    global pinsImage
+                    pinsImage = ImageTk.PhotoImage(file = r"images/Pins.png")
+                   # lblPinsImage = Label(componentWindow, image=pinsImage) # Create a label on the root form, the picture and the height
+                   # lblPinsImage.place(x = 490, y = 450) # Change the position of the label
+
                     #Display Test componenent button
                     Button(componentWindow, text ='Test/Description technique', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=500)
         componentWindow.attributes("-fullscreen", True) 
