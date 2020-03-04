@@ -14,15 +14,16 @@ lcd = LCD.Adafruit_CharLCDBackpack(address=0x21)
 
 def ExecuteExemple():
     lcd.set_backlight(0)
-    message = 'Hello\nworld!'
+    message = 'Hello world!'
     lcd.message(message)
-    #for i in range(lcd_columns-len(message)):
-        #time.sleep(0.5)
-        #lcd.move_right()
-    #for i in range(lcd_columns-len(message)):
-        #time.sleep(0.5)
-        #lcd.move_left()
-    time.sleep(5.0)
+    time.sleep(1.0)
+    for i in range(lcd_columns-len(message)):
+        time.sleep(0.5)
+        lcd.move_right()
+    for i in range(lcd_columns-len(message)):
+        time.sleep(0.5)
+        lcd.move_left()
+    time.sleep(1.0)
     lcd.clear()
     lcd.set_backlight(1)
 
