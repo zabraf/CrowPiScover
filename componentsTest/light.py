@@ -88,40 +88,36 @@ def loop():
         lblNormalLight.config(bg="red")
         lblHighLight.config(bg="red")
         lblVeryHighLight.config(bg="red")
+    elif (value < MAX_VALUE_LIGHT / 6 * 2):
+        lblVeryLowLight.config(bg="green")
+        lblLowLight.config(bg="red")
+        lblNormalLight.config(bg="red")
+        lblHighLight.config(bg="red")
+        lblVeryHighLight.config(bg="red")
+    elif(value < MAX_VALUE_LIGHT / 6 * 3):
+        lblVeryLowLight.config(bg="green")
+        lblLowLight.config(bg="green")
+        lblNormalLight.config(bg="red")
+        lblHighLight.config(bg="red")
+        lblVeryHighLight.config(bg="red")
+    elif(value < MAX_VALUE_LIGHT / 6 * 4):
+        lblVeryLowLight.config(bg="green")
+        lblLowLight.config(bg="green")
+        lblNormalLight.config(bg="green")
+        lblHighLight.config(bg="red")
+        lblVeryHighLight.config(bg="red")
+    elif(value < MAX_VALUE_LIGHT / 6 * 5):
+        lblVeryLowLight.config(bg="green")
+        lblLowLight.config(bg="green")
+        lblNormalLight.config(bg="green")
+        lblHighLight.config(bg="green")
+        lblVeryHighLight.config(bg="red")
     else:
-        if(value < MAX_VALUE_LIGHT / 6 * 2):
-            lblVeryLowLight.config(bg="green")
-            lblLowLight.config(bg="red")
-            lblNormalLight.config(bg="red")
-            lblHighLight.config(bg="red")
-            lblVeryHighLight.config(bg="red")
-        else:
-            if(value < MAX_VALUE_LIGHT / 6 * 3):
-                lblVeryLowLight.config(bg="green")
-                lblLowLight.config(bg="green")
-                lblNormalLight.config(bg="red")
-                lblHighLight.config(bg="red")
-                lblVeryHighLight.config(bg="red")
-            else:
-                if(value < MAX_VALUE_LIGHT / 6 * 4):
-                    lblVeryLowLight.config(bg="green")
-                    lblLowLight.config(bg="green")
-                    lblNormalLight.config(bg="green")
-                    lblHighLight.config(bg="red")
-                    lblVeryHighLight.config(bg="red")
-                else:
-                    if(value < MAX_VALUE_LIGHT / 6 * 5):
-                        lblVeryLowLight.config(bg="green")
-                        lblLowLight.config(bg="green")
-                        lblNormalLight.config(bg="green")
-                        lblHighLight.config(bg="green")
-                        lblVeryHighLight.config(bg="red")
-                    else:
-                        lblVeryLowLight.config(bg="green")
-                        lblLowLight.config(bg="green")
-                        lblNormalLight.config(bg="green")
-                        lblHighLight.config(bg="green")
-                        lblVeryHighLight.config(bg="green")
+        lblVeryLowLight.config(bg="green")
+        lblLowLight.config(bg="green")
+        lblNormalLight.config(bg="green")
+        lblHighLight.config(bg="green")
+        lblVeryHighLight.config(bg="green")
     t = Timer(0.2, loop)
     t.start()
     
