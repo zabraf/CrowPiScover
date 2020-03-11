@@ -8,10 +8,11 @@ class Component:
         componentWindow = Toplevel() 
         componentWindow.configure(background='white')
         
+        # Execute an extern script
         def ExecuteScript(script):
-            os.system("python3.8 "+script)
+            os.system("python3 "+script)
 
-        Button(componentWindow, text ='Go Back', command=componentWindow.destroy).place(x=510, y=50)
+        Button(componentWindow, text ='Retour', command=componentWindow.destroy).place(x=510, y=50)
         
         #Get the jsonfile Datas
         with open('componentsData.txt') as json_file:
@@ -33,7 +34,7 @@ class Component:
                     lblFunctionnementTitle.place(x=725, y=50)
 
                     #Display the componenent functionnement
-                    lblFunctionnement = Label(componentWindow, text=component['Functionnement'], font=("courrier", 12))
+                    lblFunctionnement = Label(componentWindow, text=component['Functionnement'], font=("courrier", 12), width=28, justify='left')
                     lblFunctionnement.place(x=725, y=100)
                    
                     #Display the picture of the element
@@ -42,11 +43,29 @@ class Component:
                     lblImage = Label(componentWindow, image=componentImage) # Create a label on the root form, the picture and the height
                     lblImage.place(x = 450 + component['ImageX'], y = 250 + component['ImageY']) # Change the position of the label
 
-                    #Display the pins image/value
-                    lblPins = Label(componentWindow, text=component['Pins'], font=("courrier", 20)) #Should be a picture
-                    lblPins.place(x = 490, y = 450)
+                    #Display the pins image/value                    
+                    global pinsImage
+                    global disabledPinImage
+                    pinsImage = ImageTk.PhotoImage(file = r"images/Pins.png")
+                    disabledPinImage = ImageTk.PhotoImage(file = r"images/Pin.png")
+                    lblPinsImage = Label(componentWindow, image=pinsImage, width=145) # Create a label on the root form, the picture and the height
+                    lblPinsImage.place(x = 400, y = 460) # Change the position of the label
                     
+                    lblPinsImage = Label(componentWindow, image=pinsImage, width=145) # Create a label on the root form, the picture and the height
+                    lblPinsImage.place(x = 575, y = 460) # Change the position of the label
+                   
+                    # Display the pins if they are not activated
+                    for j in range(0, 8):
+                        if int(component['Pins'][j]) == 0:
+                            lblPinsImage = Label(componentWindow, image=disabledPinImage, borderwidth=0)
+                            lblPinsImage.place(x = (397 + 16 * (j+1)), y = 478)
+                            
+                    for j in range(8, 16):
+                        if int(component['Pins'][j]) == 0:
+                            lblPinsImage = Label(componentWindow, image=disabledPinImage, borderwidth=0)
+                            lblPinsImage.place(x = (444 + 16 * (j+1)), y = 478)
+
                     #Display Test componenent button
-                    Button(componentWindow, text ='Test/Description technique', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=500)
+                    Button(componentWindow, text ='Tester le composant', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=480, y=550)
         componentWindow.attributes("-fullscreen", True) 
         componentWindow.mainloop()

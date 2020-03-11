@@ -4,10 +4,11 @@ from PIL import Image, ImageTk
 import componentClass
 
 class Main: 
-    def DisplayButton(window, o):
+    def DisplayButton(window, componentWindow):
+        # Call the display function of the componentClass component.
         def Callback(component):
-            o.Display(component)
-        # Garbage collector delete it, if it's not global.
+            componentWindow.Display(component)
+        # Garbage collector delete theme, if they are not global.
         global imageBoutonPad
         global imageBoutonsGrid
         global imageBreadBoard
@@ -73,7 +74,7 @@ class Main:
         Button(window, command= lambda: Callback("Ultrasound"), borderwidth=0, image=imageUltraSound).place(x=775, y=450)
         Button(window, command= lambda: Callback("Vibrator"), borderwidth=0, image=imageVibrator).place(x=775, y=245)
         
-        return window
+   
     
     window = Tk() # Main form
     bgImage = Image.open("images/CrowPiBG.jpg") # Image background
@@ -82,8 +83,8 @@ class Main:
     lblImage = Label(window, image=render) # Create a label on the window form, the picture and the height
     lblImage.place(x=-1, y=-1) # Change the position of the label
     
-    o = componentClass.Component() # Intialize the function in another file
-    DisplayButton(window, o) # Call the display button method
+    componentWindow = componentClass.Component() # Intialize the function in another file
+    DisplayButton(window, componentWindow) # Call the display button method
 
     window.attributes("-fullscreen", True) # Resize the form in fullscreen
     window.mainloop() # Load the form

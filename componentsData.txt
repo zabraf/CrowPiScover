@@ -2,7 +2,7 @@
     "ButtonsPad":{
          "Name" : "Pad de boutons",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "buttonsPad.py",
 	 "ImageLink" : "ButtonsPad.jpg",
@@ -12,7 +12,7 @@
     "ButtonsGrid":{
          "Name" : "Grille de boutons",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "buttonsGrid.py",
 	 "ImageLink" : "ButtonsGrid.jpg",
@@ -22,7 +22,7 @@
     "BreadBoard":{
          "Name" : "Planche à pain",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "breadBoard.py",
 	 "ImageLink" : "BreadBoard.jpg",
@@ -32,7 +32,7 @@
     "BreadBoardC":{
          "Name" : "Planche à pain C",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "breadBoardC.py",
 	 "ImageLink" : "BreadBoardC.jpg",
@@ -42,8 +42,8 @@
     "Buzzer":{
          "Name" : "Buzzer",
 	 "Description" : "Description",
-         "Pins" : "01001000",
-         "Functionnement" : "Functionnement",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Functionnement" : "Le buzzer se compose d'un boîtier \nextérieur avec deux broches pour \nle fixer à l'alimentation et à la \nterre.",
 	 "TestLink" : "buzzer.py",
 	 "ImageLink" : "Buzzer.jpg",
 	 "ImageX" : 65,
@@ -52,7 +52,7 @@
     "DigitScreen":{
          "Name" : "Ecran digital",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "digitScreen.py",
 	 "ImageLink" : "DigitScreen.jpg",
@@ -62,7 +62,7 @@
     "HumidityCaptor":{
          "Name" : "Capteur d'humidité",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : " humdityCaptor.py",
 	 "ImageLink" : "HumidityCaptor.jpg",
@@ -72,7 +72,7 @@
     "IR":{
          "Name" : "Infrarouge",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "IR.py",
 	 "ImageLink" : "IR.jpg",
@@ -82,7 +82,7 @@
     "LCD":{
          "Name" : "LCD",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "LCD.py",
 	 "ImageLink" : "LCD.jpg",
@@ -92,7 +92,7 @@
     "LedMatrix":{
          "Name" : "Led matrix",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "ledMatrix.py",
 	 "ImageLink" : "LedMatrix.jpg",
@@ -102,7 +102,7 @@
     "Light":{
          "Name" : "Lumière",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "light.py",
 	 "ImageLink" : "Light.jpg",
@@ -112,7 +112,7 @@
     "Motion":{
          "Name" : "Détecteur de mouvements",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "motion.py",
 	 "ImageLink" : "Motion.jpg",
@@ -122,7 +122,7 @@
     "Raspberry":{
          "Name" : "RaspBerry",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "raspberry.py",
 	 "ImageLink" : "Raspberry.jpg",
@@ -132,7 +132,7 @@
     "RFID":{
          "Name" : "RFID",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "RFID.py",
 	 "ImageLink" : "RFID.jpg",
@@ -142,7 +142,7 @@
     "Sever":{
          "Name" : "Sever",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "sever.py",
 	 "ImageLink" : "Sever.jpg",
@@ -152,7 +152,7 @@
     "Sound":{
          "Name" : "Son",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "sound.py",
 	 "ImageLink" : "Sound.jpg",
@@ -160,9 +160,9 @@
 	 "ImageY" : 20
     },
     "StepMotor":{
-         "Name" : "moteur pas à pas",
+         "Name" : "Moteur pas à pas",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "stepMotor.py",
 	 "ImageLink" : "StepMotor.jpg",
@@ -172,7 +172,7 @@
     "TouchCaptor":{
          "Name" : "Détecteur de pression",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "touchCaptor.py",
 	 "ImageLink" : "TouchCaptor.jpg",
@@ -180,9 +180,9 @@
 	 "ImageY" : 20
     },
     "Ultrasound":{
-         "Name" : "Ultra son",
+         "Name" : "Ultrason",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "ultrasound.py",
 	 "ImageLink" : "Ultrasound.jpg",
@@ -192,7 +192,7 @@
     "Vibrator":{
          "Name" : "Vibreur",
 	 "Description" : "Description",
-         "Pins" : "01001000",
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "vibrator.py",
 	 "ImageLink" : "Vibrator.jpg",
