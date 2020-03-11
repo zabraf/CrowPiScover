@@ -43,7 +43,7 @@
          "Name" : "Buzzer",
 	 "Description" : "Description",
          "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-         "Functionnement" : "Functionnement",
+         "Functionnement" : "Le buzzer se compose d'un boîtier extérieur avec \n deux broches pour le fixer à l'alimentation et à la terre.",
 	 "TestLink" : "buzzer.py",
 	 "ImageLink" : "Buzzer.jpg",
 	 "ImageX" : 65,
@@ -160,7 +160,7 @@
 	 "ImageY" : 20
     },
     "StepMotor":{
-         "Name" : "moteur pas à pas",
+         "Name" : "Moteur pas à pas",
 	 "Description" : "Description",
          "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",
@@ -180,7 +180,7 @@
 	 "ImageY" : 20
     },
     "Ultrasound":{
-         "Name" : "Ultra son",
+         "Name" : "Ultrason",
 	 "Description" : "Description",
          "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Functionnement",

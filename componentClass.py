@@ -12,7 +12,7 @@ class Component:
         def ExecuteScript(script):
             os.system("python3 "+script)
 
-        Button(componentWindow, text ='Go Back', command=componentWindow.destroy).place(x=510, y=50)
+        Button(componentWindow, text ='Retour', command=componentWindow.destroy).place(x=510, y=50)
         
         #Get the jsonfile Datas
         with open('componentsData.txt') as json_file:
@@ -66,6 +66,6 @@ class Component:
                             lblPinsImage.place(x = (444 + 16 * (j+1)), y = 478)
 
                     #Display Test componenent button
-                    Button(componentWindow, text ='Test/Description technique', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=550)
+                    Button(componentWindow, text ='Tester le composant', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=480, y=550)
         componentWindow.attributes("-fullscreen", True) 
         componentWindow.mainloop()
