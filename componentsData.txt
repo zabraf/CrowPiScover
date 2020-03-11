@@ -43,7 +43,7 @@
          "Name" : "Buzzer",
 	 "Description" : "Description",
          "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-         "Functionnement" : "Le buzzer se compose d'un boîtier extérieur avec \n deux broches pour le fixer à l'alimentation et à la terre.",
+         "Functionnement" : "Le buzzer se compose d'un boîtier \nextérieur avec deux broches pour \nle fixer à l'alimentation et à la \nterre.",
 	 "TestLink" : "buzzer.py",
 	 "ImageLink" : "Buzzer.jpg",
 	 "ImageX" : 65,
