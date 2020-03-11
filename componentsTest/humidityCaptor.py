@@ -36,8 +36,14 @@ def on_closing():
     exit()
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 window = Tk() # Main form
-window.geometry("300x300+400+100")
-Button(window, command= lambda: ExecuteExemple(), text="ON/OFF").place(x=75, y=35)
+window.geometry("400x200+400+100")
+
+lblTemperature = Label(window, text="Température : ", font=("Courier", 20))
+lblHumidity = Label(window, text="Humidité : ", font=("Courier", 20))
+
+lblTemperature.place(x=10, y=50)
+lblHumidity.place(x=10, y=80)
+
 window.bind("<FocusOut>", app_lost_focus)
 window.protocol("WM_DELETE_WINDOW", on_closing)
 window.mainloop() # Load the form 

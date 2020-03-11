@@ -42,11 +42,28 @@ class Component:
                     lblImage = Label(componentWindow, image=componentImage) # Create a label on the root form, the picture and the height
                     lblImage.place(x = 450 + component['ImageX'], y = 250 + component['ImageY']) # Change the position of the label
 
-                    #Display the pins image/value
-                    lblPins = Label(componentWindow, text=component['Pins'], font=("courrier", 20)) #Should be a picture
-                    lblPins.place(x = 490, y = 450)
+                    #Display the pins image/value                    
+                    global pinsImage
+                    global disabledPinImage
+                    pinsImage = ImageTk.PhotoImage(file = r"images/Pins.png")
+                    disabledPinImage = ImageTk.PhotoImage(file = r"images/Pin.png")
+                    lblPinsImage = Label(componentWindow, image=pinsImage, width=145) # Create a label on the root form, the picture and the height
+                    lblPinsImage.place(x = 400, y = 460) # Change the position of the label
                     
+                    lblPinsImage = Label(componentWindow, image=pinsImage, width=145) # Create a label on the root form, the picture and the height
+                    lblPinsImage.place(x = 575, y = 460) # Change the position of the label
+                    
+                    for j in range(0, 8):
+                        if component['Pins'][j] == 0:
+                            lblPinsImage = Label(componentWindow, image=disabledPinImage)
+                            lblPinsImage.place(x = 410 + 5*i, y = 465)
+                    
+                    for j in range(8, 16):
+                        if component['Pins'][j] == 0:
+                            lblPinsImage = Label(componentWindow, image=disabledPinImage)
+                            lblPinsImage.place(x = 585 + 5*i, y = 465)
+
                     #Display Test componenent button
-                    Button(componentWindow, text ='Test/Description technique', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=500)
+                    Button(componentWindow, text ='Test/Description technique', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=550)
         componentWindow.attributes("-fullscreen", True) 
         componentWindow.mainloop()
