@@ -8,6 +8,7 @@ class Component:
         componentWindow = Toplevel() 
         componentWindow.configure(background='white')
         
+        # Execute an extern script
         def ExecuteScript(script):
             os.system("python3.8 "+script)
 
@@ -52,16 +53,17 @@ class Component:
                     
                     lblPinsImage = Label(componentWindow, image=pinsImage, width=145) # Create a label on the root form, the picture and the height
                     lblPinsImage.place(x = 575, y = 460) # Change the position of the label
-                    
+                   
+                    # Display the pins if they are not activated
                     for j in range(0, 8):
-                        if component['Pins'][j] == 0:
-                            lblPinsImage = Label(componentWindow, image=disabledPinImage)
-                            lblPinsImage.place(x = 410 + 5*i, y = 465)
-                    
+                        if int(component['Pins'][j]) == 0:
+                            lblPinsImage = Label(componentWindow, image=disabledPinImage, borderwidth=0)
+                            lblPinsImage.place(x = (397 + 16 * (j+1)), y = 478)
+                            
                     for j in range(8, 16):
-                        if component['Pins'][j] == 0:
-                            lblPinsImage = Label(componentWindow, image=disabledPinImage)
-                            lblPinsImage.place(x = 585 + 5*i, y = 465)
+                        if int(component['Pins'][j]) == 0:
+                            lblPinsImage = Label(componentWindow, image=disabledPinImage, borderwidth=0)
+                            lblPinsImage.place(x = (444 + 16 * (j+1)), y = 478)
 
                     #Display Test componenent button
                     Button(componentWindow, text ='Test/Description technique', command= lambda: ExecuteScript("componentsTest/"+component['TestLink'])).place(x=458, y=550)
