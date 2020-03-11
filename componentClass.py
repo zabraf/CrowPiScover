@@ -9,7 +9,7 @@ class Component:
         componentWindow.configure(background='white')
         
         def ExecuteScript(script):
-            os.system("python3.8 "+script)
+            os.system("python3 "+script)
 
         Button(componentWindow, text ='Go Back', command=componentWindow.destroy).place(x=510, y=50)
         

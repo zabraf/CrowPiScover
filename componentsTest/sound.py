@@ -24,7 +24,6 @@ def app_lost_focus(event):
     t.cancel()
     exit()
     
-    
 def on_closing():
     t.cancel()
     exit()
@@ -40,11 +39,9 @@ window.protocol("WM_DELETE_WINDOW", on_closing)
 def loop():
     global counter
     if(GPIO.input(sound_pin)==GPIO.LOW):
-        print ("hello, world s")
         SoundDetected(lblSound)
         counter = 0
     else:
-        print ("hello, world ns")
         if counter == 5:
             NoSoundDetected(lblSound)
         else:
