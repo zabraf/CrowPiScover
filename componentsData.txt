@@ -140,10 +140,10 @@
 	 "ImageY" : 20
     },
     "Sever":{
-         "Name" : "Sever",
-	 "Description" : "Détecte Si le Crowpi est à plat ou si il se retrouve à 90°(au tout autre angle différent de 0°).",
+         "Name" : "Servo moteur",
+	 "Description" : "Le moteur, après réception du commande, effectuera celle-ci et s'arrêtera de lui-même lorsque cette commande sera achevée.",
          "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
-         "Functionnement" : "Les Capteurs d'inclinaison sont constitués d'une boule qui roule avec une plaque conductrice en dessous. Lorsque le capteur est alimenté, la bille roulante tombe au fond du capteur pour former une connexion électrique. Lorsque le capteur est incliné, la boule de roulement ne tombe pas au fond, de sorte que le courant ne peut pas circuler entre les deux bornes d'extrémité du capteur.",
+         "Functionnement" : "Pour bien comprendre le fonctionnement du servo, il faut jeter un coup d'oeil sous le capot. À l'intérieur, il y a un dispositif assez simple : un petit moteur à courant continu, un potentiomètre et un circuit de commande. Le moteur est fixé par des engrenages à la roue de contrôle. Lorsque le moteur tourne, la résistance du potentiomètre change, de sorte que le circuit de commande peut réguler avec précision l'amplitude du mouvement et la direction dans laquelle il s'effectue. \n\nLorsque l'arbre du moteur est dans la position souhaitée, l'alimentation du moteur est arrêtée. Sinon, le moteur est tourné dans le sens approprié. La position désirée est envoyée par des impulsions électriques par le fil de signal. La vitesse du moteur est proportionnelle à la différence entre sa position réelle et sa position souhaitée. Ainsi, si le moteur est proche de la position désirée, il tournera lentement, sinon il tournera vite. C'est ce qu'on appelle le contrôle proportionnel. Cela signifie que le moteur ne tournera qu'aussi fort que nécessaire pour accomplir la tâche à accomplir, un petit bonhomme très efficace.",
 	 "TestLink" : "sever.py",
 	 "ImageLink" : "Sever.jpg",
 	 "ImageX" : 65,
