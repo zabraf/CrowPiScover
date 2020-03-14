@@ -7,7 +7,6 @@ import time
 from threading import Timer
 # define sound pin
 sound_pin = 24
-flag = True
 # set GPIO mode to GPIO.BOARD
 GPIO.setmode(GPIO.BCM)
 # setup pin as INPUT
@@ -46,7 +45,6 @@ def loop():
             NoSoundDetected(lblSound)
         else:
             counter += 1
-    print ("hello, world")
     t = Timer(0.1, loop)
     t.start()
 counter = 0
