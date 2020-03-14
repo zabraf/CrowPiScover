@@ -2,7 +2,7 @@
     "ButtonsPad":{
          "Name" : "Pad de boutons",
 	 "Description" : "Description",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Un interrupteur à bouton-poussoir est un petit mécanisme scellé qui complète un circuit électrique lorsque vous appuyez dessus. Lorsqu'il est allumé, un petit ressort métallique à l'intérieur entre en contact avec deux fils, ce qui permet à l'électricité de circuler. Lorsqu'il est éteint, le ressort se rétracte, le contact est interrompu et le courant ne circule plus. Le corps de l'interrupteur est en plastique non conducteur.",
 	 "TestLink" : "buttonsPad.py",
 	 "ImageLink" : "ButtonsPad.jpg",
@@ -22,7 +22,7 @@
     "BreadBoard":{
          "Name" : "Relai",
 	 "Description" : "Description",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "1"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "breadBoard.py",
 	 "ImageLink" : "BreadBoard.jpg",
@@ -32,7 +32,7 @@
     "BreadBoardC":{
          "Name" : "Relai C",
 	 "Description" : "Description",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Functionnement",
 	 "TestLink" : "breadBoardC.py",
 	 "ImageLink" : "BreadBoardC.jpg",
@@ -42,7 +42,7 @@
     "Buzzer":{
          "Name" : "Buzzer",
 	 "Description" : "Lors de l'activation du buzzer, celui-ci se met à vibrer.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Le buzzer se compose d'un boîtier extérieur avec deux broches pour le fixer à l'alimentation et à la terre.\n\n À l'intérieur se trouve un élément piézo, qui se compose d'un disque central en céramique entouré d'un disque de vibration en métal (souvent en bronze). Lorsque du courant est appliqué au buzzer, le disque en céramique se contracte ou se dilate. Le changement de Ceci fait alors vibrer le disque environnant. C’est le son que vous entendez. En changeant la fréquence du buzzer, la vitesse des vibrations change, ce qui change la hauteur du son résultant.",
 	 "TestLink" : "buzzer.py",
 	 "ImageLink" : "Buzzer.jpg",
@@ -52,7 +52,7 @@
     "DigitScreen":{
          "Name" : "Ecran digital",
 	 "Description" : "Affiche des chiffres grâce à des leds.",
-         "Pins" : ["1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Un affichage à sept segments est une forme de dispositif d'affichage électronique pour l'affichage de chiffres décimaux qui est une alternative aux affichages plus complexes à matrice de points.\n\n Les affichages à sept segments sont largement utilisés dans les horloges numériques, les compteurs électroniques, les calculatrices de base et autres appareils électroniques qui affichent des informations numériques.",
 	 "TestLink" : "digitScreen.py",
 	 "ImageLink" : "DigitScreen.jpg",
@@ -62,7 +62,7 @@
     "HumidityCaptor":{
          "Name" : "Capteur d'humidité",
 	 "Description" : "Détecte l'humidité dans l'air ainsi que la température et retourne ces informations.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1],
          "Functionnement" : "Un capteur d'humidité (ou hygromètre) détecte, mesure et signale à la fois l'humidité et la température de l'air. Le rapport entre l'humidité de l'air et la plus grande quantité d'humidité à une température donnée est appelé humidité relative. L'humidité relative devient un facteur important dans la recherche du confort.",
 	 "TestLink" : " humdityCaptor.py",
 	 "ImageLink" : "HumidityCaptor.jpg",
@@ -72,7 +72,7 @@
     "IR":{
          "Name" : "Infrarouge",
 	 "Description" : "Câpte les rayonnement IR et permet de les traduires en commande ou autre.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1],
          "Functionnement" : "Le rayonnement infrarouge (IR) est un rayonnement électromagnétique de longueur d'onde supérieure à celle du spectre visible mais plus courte que celle des micro-ondes ou du domaine térahertz.\n\n Cette gamme de longueurs d'onde dans le vide de 700 nm à 0,1 ou 1 mm se divise en infrarouge proche, au sens de proche du spectre visible, de 700 à 2 000 nm environ, infrarouge moyen, qui s'étend jusqu'à 20 µm, et infrarouge lointain. Les limites de ces domaines peuvent varier quelque peu d'un auteur à l'autre.\n\n De nombreuses applications en rapport avec la chaleur et avec l'analyse spectrographique des matériaux utilisent ou mesurent les rayonnements infrarouges.",
 	 "TestLink" : "IR.py",
 	 "ImageLink" : "IR.jpg",
@@ -82,7 +82,7 @@
     "LCD":{
          "Name" : "LCD",
 	 "Description" : "Permet d'afficher des caractères ASCII (Nombres, lettres, caractères spéciaux) sur chaque unité de l'écran soit: 2x16 caractères.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1],
          "Functionnement" : "La plupart des écrans LCD utilisent la technologie de la matrice active. Un transistor à couche mince (TFT) dispose de minuscules transistors et condensateurs dans une matrice sur le verre de l'écran. Pour adresser un pixel particulier, la rangée appropriée est activée, puis une charge est envoyée dans la bonne colonne. Comme toutes les autres rangées que la colonne croise sont désactivées, seul le condensateur du pixel désigné reçoit une charge. Le condensateur est capable de conserver la charge jusqu'au prochain cycle de rafraîchissement.",
 	 "TestLink" : "LCD.py",
 	 "ImageLink" : "LCD.jpg",
@@ -92,7 +92,7 @@
     "LedMatrix":{
          "Name" : "Led matrix",
 	 "Description" : "Leds disposées dans une grilles pouvant être allumées de façon individuelles.",
-         "Pins" : ["0","0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "1"],
+         "Pins" : ["1","1", "1", "1", "1", "1", "1", "1, "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Dans un format matriciel, les LED sont disposées en lignes et en colonnes. On peut également les considérer comme des coordonnées y et x. Supposons que nous ayons une matrice 4x4. Les lignes seraient marquées de A à D et les colonnes de 1 à 4. Nous pouvons maintenant adresser chaque LED par ligne et par colonne. La Led en haut à gauche serait (A,1). Le voyant en bas à gauche serait (A,1). Le voyant en bas à droite serait (D,4).",
 	 "TestLink" : "ledMatrix.py",
 	 "ImageLink" : "LedMatrix.jpg",
@@ -102,7 +102,7 @@
     "Light":{
          "Name" : "Lumière",
 	 "Description" : "Détecte le niveau de lumière arrivant sur le capteur et retourne cette information(0 pour aucune lumière, ~65556 si il y a énormément de lumière).",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Le capteur de lumière est un appareil qui convertit l'énergie lumineuse de différentes longueurs d'onde de l'infrarouge en uv en énergie électrique (ou en un signal électrique). C'est la raison pour laquelle ils sont appelés appareils photoélectriques. Ils détectent la lumière pendant ce processus et peuvent donc être appelés «photodétecteurs».",
 	 "TestLink" : "light.py",
 	 "ImageLink" : "Light.jpg",
@@ -112,7 +112,7 @@
     "Motion":{
          "Name" : "Détecteur de mouvements",
 	 "Description" : "Indique lorsque du mouvement est détecté par le capteur.",
-         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "1", "1", "1", "1", "1", "1"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Les détecteurs actifs de mouvement (également appelés détecteurs de mouvement à base de radar) émettent des ondes sonores ultrasoniques - les mêmes que celles utilisées dans les échographies de grossesse - et ces ondes sont réfléchies vers le capteur. Ce phénomène se poursuit jusqu'à ce qu'il soit perturbé par une interférence quelconque (par exemple, le passage d'une personne). Cela déclenche l'envoi d'un signal par le capteur",
 	 "TestLink" : "motion.py",
 	 "ImageLink" : "Motion.jpg",
@@ -122,7 +122,7 @@
     "Raspberry":{
          "Name" : "RaspBerry",
 	 "Description" : "Le Raspberry Pi est un nano-ordinateur monocarte à processeur ARM conçu par des professeurs du département informatique de l'université de Cambridge dans le cadre de la fondation Raspberry Pi2.\n\n Cet ordinateur, de la taille d'une carte de crédit, est destiné à encourager l'apprentissage de la programmation informatique2 ; il permet l'exécution de plusieurs variantes du système d'exploitation libre GNU/Linux, notamment Debian, et des logiciels compatibles. Mais il fonctionne également avec le système d'exploitation Microsoft Windows : Windows 10 IoT Core3 et celui de Google, Android Pi4.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "",
 	 "TestLink" : "raspberry.py",
 	 "ImageLink" : "Raspberry.jpg",
@@ -132,7 +132,7 @@
     "RFID":{
          "Name" : "RFID",
 	 "Description" : "La radio-identification (RFID) permet de mémoriser ou de récupérer des données à distance. Certains passeports, carte de transport ou carte de paiement utilisent la radio-identification.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "L'identification par radiofréquence (RFID) est l'utilisation sans contact et sans fil d'ondes de radiofréquence pour transférer des données. L'étiquetage des articles à l'aide d'étiquettes RFID permet aux utilisateurs d'identifier et de suivre automatiquement et de manière unique les stocks et les biens. La RFID fait passer la technologie d'identification automatique à un niveau supérieur en permettant la lecture des étiquettes sans ligne de visée et, selon le type de RFID, en offrant une plage de lecture allant de quelques centimètres à plus de 20 mètres.",
 	 "TestLink" : "RFID.py",
 	 "ImageLink" : "RFID.jpg",
@@ -142,17 +142,17 @@
     "Sever":{
          "Name" : "Servo moteur",
 	 "Description" : "Le moteur, après réception du commande, effectuera celle-ci et s'arrêtera de lui-même lorsque cette commande sera achevée.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0"],
          "Functionnement" : "Pour bien comprendre le fonctionnement du servo, il faut jeter un coup d'oeil sous le capot. À l'intérieur, il y a un dispositif assez simple : un petit moteur à courant continu, un potentiomètre et un circuit de commande. Le moteur est fixé par des engrenages à la roue de contrôle. Lorsque le moteur tourne, la résistance du potentiomètre change, de sorte que le circuit de commande peut réguler avec précision l'amplitude du mouvement et la direction dans laquelle il s'effectue. \n\nLorsque l'arbre du moteur est dans la position souhaitée, l'alimentation du moteur est arrêtée. Sinon, le moteur est tourné dans le sens approprié. La position désirée est envoyée par des impulsions électriques par le fil de signal. La vitesse du moteur est proportionnelle à la différence entre sa position réelle et sa position souhaitée. Ainsi, si le moteur est proche de la position désirée, il tournera lentement, sinon il tournera vite. C'est ce qu'on appelle le contrôle proportionnel. Cela signifie que le moteur ne tournera qu'aussi fort que nécessaire pour accomplir la tâche à accomplir, un petit bonhomme très efficace.",
-	 "TestLink" : "sever.py",
-	 "ImageLink" : "Sever.jpg",
+	 "TestLink" : "servo.py",
+	 "ImageLink" : "Servo.jpg",
 	 "ImageX" : 65,
 	 "ImageY" : 20
     },
     "Sound":{
          "Name" : "Son",
 	 "Description" : "Détecte les son environnants et retourne l'informations.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "1"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Les capteurs sonores fonctionnent en détectant les différences de pression atmosphérique et en les transformant en signaux électriques. Les capteurs de son tels que les microphones ont généralement des amplificateurs intégrés qui augmentent la puissance du signal entrant.",
 	 "TestLink" : "sound.py",
 	 "ImageLink" : "Sound.jpg",
@@ -162,7 +162,7 @@
     "StepMotor":{
          "Name" : "Moteur pas à pas",
 	 "Description" : "Type de moteur très courant dans les dispositifs ayant besoins de contrôler une vitesse ou des positions. Certaines imprimantes utilisent des moteurs pas à pas.",
-         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "1", "1"],
          "Functionnement" : "Le moteur pas à pas est un moteur à courant continu sans balais qui tourne par étapes. C'est très utile car il peut être positionné avec précision sans aucun capteur de retour, ce qui représente un contrôleur en boucle ouverte. Le moteur pas à pas se compose d'un rotor qui est généralement un aimant permanent et qui est entouré par les enroulements du stator. Lorsque nous activons les enroulements pas à pas dans un ordre particulier et que nous laissons un courant les traverser, ils magnétisent le stator et créent respectivement des pôles électromagnétiques qui entraînent la propulsion du moteur. Voilà donc le principe de fonctionnement de base des moteurs pas à pas.",
 	 "TestLink" : "stepMotor.py",
 	 "ImageLink" : "StepMotor.jpg",
@@ -182,7 +182,7 @@
     "Ultrasound":{
          "Name" : "Ultrason",
 	 "Description" : "Ce composant permet de détecter un objet se trouvant au dessus de lui et retourne la distance entre l'objet et le capteur.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Les capteurs à ultrasons fonctionnent en émettant des ondes sonores à une fréquence trop élevée pour que l'homme puisse les entendre. Ils attendent ensuite que le son soit réfléchi et calculent la distance en fonction du temps nécessaire. Cette méthode est similaire à celle utilisée par les radars pour mesurer le temps nécessaire à une onde radio pour revenir après avoir heurté un objet.",
 	 "TestLink" : "ultrasound.py",
 	 "ImageLink" : "Ultrasound.jpg",
@@ -192,7 +192,7 @@
     "Vibrator":{
          "Name" : "Vibreur",
 	 "Description" : "Permet de vibrer lorsqu'il en reçoit la commande.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "0", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Sa structure interne ressemble à une boule de métal qui est fixée à un ressort spécial et autour de lui se trouve l'autre pôle. Lorsque la vibration atteint un certain niveau, les deux pôles sontconnecté de manière à déterminer quand et comment le choc se produit, ce qui rend la vibration sensation.",
 	 "TestLink" : "vibrator.py",
 	 "ImageLink" : "Vibrator.jpg",
