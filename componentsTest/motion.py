@@ -31,8 +31,8 @@ window = Tk() # Main form
 window.geometry("400x300+400+100")
 lblMotion = Label(window, bg="red", height=10, width=30)
 lblMotion.place(x=80, y=50)
-# Call SoundDetected when there's sound
-# Call NoSoundDetected after SoundDetected to reset the label
+# Call NoMotionDetected when there's motion
+# Call MotionDetected when there's no motion
 window.bind("<FocusOut>", app_lost_focus)
 window.protocol("WM_DELETE_WINDOW", on_closing)
 def loop():

@@ -52,7 +52,7 @@
     "DigitScreen":{
          "Name" : "Ecran digital",
 	 "Description" : "Affiche des chiffres grâce à des leds.",
-         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+         "Pins" : ["1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Un affichage à sept segments est une forme de dispositif d'affichage électronique pour l'affichage de chiffres décimaux qui est une alternative aux affichages plus complexes à matrice de points.\n\n Les affichages à sept segments sont largement utilisés dans les horloges numériques, les compteurs électroniques, les calculatrices de base et autres appareils électroniques qui affichent des informations numériques.",
 	 "TestLink" : "digitScreen.py",
 	 "ImageLink" : "DigitScreen.jpg",
@@ -92,7 +92,7 @@
     "LedMatrix":{
          "Name" : "Led matrix",
 	 "Description" : "Leds disposées dans une grilles pouvant être allumées de façon individuelles.",
-         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+         "Pins" : ["0","0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Dans un format matriciel, les LED sont disposées en lignes et en colonnes. On peut également les considérer comme des coordonnées y et x. Supposons que nous ayons une matrice 4x4. Les lignes seraient marquées de A à D et les colonnes de 1 à 4. Nous pouvons maintenant adresser chaque LED par ligne et par colonne. La Led en haut à gauche serait (A,1). Le voyant en bas à gauche serait (A,1). Le voyant en bas à droite serait (D,4).",
 	 "TestLink" : "ledMatrix.py",
 	 "ImageLink" : "LedMatrix.jpg",
@@ -192,7 +192,7 @@
     "Vibrator":{
          "Name" : "Vibreur",
 	 "Description" : "Permet de vibrer lorsqu'il en reçoit la commande.",
-         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+         "Pins" : ["0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0"],
          "Functionnement" : "Sa structure interne ressemble à une boule de métal qui est fixée à un ressort spécial et autour de lui se trouve l'autre pôle. Lorsque la vibration atteint un certain niveau, les deux pôles sontconnecté de manière à déterminer quand et comment le choc se produit, ce qui rend la vibration sensation.",
 	 "TestLink" : "vibrator.py",
 	 "ImageLink" : "Vibrator.jpg",

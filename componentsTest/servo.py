@@ -44,7 +44,6 @@ s = sg90(0)
 def ExecuteExemple():
     s.setdirection( 100, 80 )
     time.sleep(0.5)
-    print("Turn right ...")
     s.setdirection( -100, 80 )
 
 def app_lost_focus(event): 

@@ -34,7 +34,7 @@ class Component:
                     lblFunctionnementTitle.place(x=725, y=50)
 
                     #Display the componenent functionnement
-                    lblFunctionnement = Label(componentWindow, text=component['Functionnement'], font=("courrier", 12), wraplength=300)
+                    lblFunctionnement = Label(componentWindow, text=component['Functionnement'], font=("courrier", 12), wraplength=274)
                     lblFunctionnement.place(x=725, y=100)
                    
                     #Display the picture of the element

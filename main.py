@@ -50,7 +50,7 @@ class Main:
         imageRFID = ImageTk.PhotoImage(file = r"images/RFID.jpg")
         imageSound = ImageTk.PhotoImage(file = r"images/Sound.jpg")
         imageStepMotor = ImageTk.PhotoImage(file = r"images/StepMotor.jpg")
-        imageServ = ImageTk.PhotoImage(file = r"images/Sever.jpg")
+        imageServ = ImageTk.PhotoImage(file = r"images/Servo.jpg")
         imageTouchCaptor = ImageTk.PhotoImage(file = r"images/TouchCaptor.jpg")
         imageUltraSound = ImageTk.PhotoImage(file = r"images/Ultrasound.jpg")
         imageVibrator = ImageTk.PhotoImage(file = r"images/Vibrator.jpg")
