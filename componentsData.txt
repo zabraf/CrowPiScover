@@ -62,7 +62,7 @@
     "HumidityCaptor":{
          "Name" : "Capteur d'humidité",
 	 "Description" : "Détecte l'humidité dans l'air ainsi que la température et retourne ces informations.",
-         "Pins" : ["1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Un capteur d'humidité (ou hygromètre) détecte, mesure et signale à la fois l'humidité et la température de l'air. Le rapport entre l'humidité de l'air et la plus grande quantité d'humidité à une température donnée est appelé humidité relative. L'humidité relative devient un facteur important dans la recherche du confort.",
 	 "TestLink" : " humdityCaptor.py",
 	 "ImageLink" : "HumidityCaptor.jpg",
@@ -72,7 +72,7 @@
     "IR":{
          "Name" : "Infrarouge",
 	 "Description" : "Câpte les rayonnement IR et permet de les traduires en commande ou autre.",
-         "Pins" : ["1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Le rayonnement infrarouge (IR) est un rayonnement électromagnétique de longueur d'onde supérieure à celle du spectre visible mais plus courte que celle des micro-ondes ou du domaine térahertz.\n\n Cette gamme de longueurs d'onde dans le vide de 700 nm à 0,1 ou 1 mm se divise en infrarouge proche, au sens de proche du spectre visible, de 700 à 2 000 nm environ, infrarouge moyen, qui s'étend jusqu'à 20 µm, et infrarouge lointain. Les limites de ces domaines peuvent varier quelque peu d'un auteur à l'autre.\n\n De nombreuses applications en rapport avec la chaleur et avec l'analyse spectrographique des matériaux utilisent ou mesurent les rayonnements infrarouges.",
 	 "TestLink" : "IR.py",
 	 "ImageLink" : "IR.jpg",
@@ -82,7 +82,7 @@
     "LCD":{
          "Name" : "LCD",
 	 "Description" : "Permet d'afficher des caractères ASCII (Nombres, lettres, caractères spéciaux) sur chaque unité de l'écran soit: 2x16 caractères.",
-         "Pins" : ["1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1, "1],
+         "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "La plupart des écrans LCD utilisent la technologie de la matrice active. Un transistor à couche mince (TFT) dispose de minuscules transistors et condensateurs dans une matrice sur le verre de l'écran. Pour adresser un pixel particulier, la rangée appropriée est activée, puis une charge est envoyée dans la bonne colonne. Comme toutes les autres rangées que la colonne croise sont désactivées, seul le condensateur du pixel désigné reçoit une charge. Le condensateur est capable de conserver la charge jusqu'au prochain cycle de rafraîchissement.",
 	 "TestLink" : "LCD.py",
 	 "ImageLink" : "LCD.jpg",
@@ -92,7 +92,7 @@
     "LedMatrix":{
          "Name" : "Led matrix",
 	 "Description" : "Leds disposées dans une grilles pouvant être allumées de façon individuelles.",
-         "Pins" : ["1","1", "1", "1", "1", "1", "1", "1, "1", "1", "1", "1", "1", "1", "1", "1"],
+         "Pins" : ["1","1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Dans un format matriciel, les LED sont disposées en lignes et en colonnes. On peut également les considérer comme des coordonnées y et x. Supposons que nous ayons une matrice 4x4. Les lignes seraient marquées de A à D et les colonnes de 1 à 4. Nous pouvons maintenant adresser chaque LED par ligne et par colonne. La Led en haut à gauche serait (A,1). Le voyant en bas à gauche serait (A,1). Le voyant en bas à droite serait (D,4).",
 	 "TestLink" : "ledMatrix.py",
 	 "ImageLink" : "LedMatrix.jpg",
