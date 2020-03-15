@@ -170,11 +170,7 @@
 	 "ImageY" : 20
     },
     "TouchCaptor":{
-<<<<<<< HEAD
-         "Name" : "Détecteur de ",
-=======
          "Name" : "Détecteur tactile",
->>>>>>> 3b53546a51b1bf30a970669c52fff685a0d84d8a
 	 "Description" : "Lorsqu'une pression est exercé sur le capteur, il mesure la pression et retourne l'information.",
          "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Les capteurs tactiles sont sensibles au toucher, à la force ou à la pression. Ils sont l'un des capteurs les plus simples et les plus utiles. Le fonctionnement d'un capteur tactile est similaire à celui d'un simple interrupteur. Lorsqu'il y a contact avec la surface du capteur tactile, le circuit est fermé à l'intérieur du capteur et il y a un flux de courant. Lorsque le contact est relâché, le circuit est ouvert et aucun courant ne circule.",
