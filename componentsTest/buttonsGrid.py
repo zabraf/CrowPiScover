@@ -32,15 +32,20 @@ class ButtonMatrix():
 
     def activateButton(self, rowPin, colPin):
         # get the button index
-        btnIndex = self.buttonIDs[rowPin][colPin] - 1
-        lblValeur.config(text="bouton " + str(btnIndex))
+        return self.buttonIDs[rowPin][colPin] - 1
 
 def app_lost_focus(event):
+    global canrun
+    canrun = False
     t.cancel()
+    window.destroy()
     exit()
     
 def on_closing():
+    global canrun
+    canrun = False
     t.cancel()
+    window.destroy()
     exit()
 
 window = Tk() # Main form
@@ -54,19 +59,24 @@ lblValeur.place(x=10, y=80)
 window.bind("<FocusOut>", app_lost_focus)
 window.protocol("WM_DELETE_WINDOW", on_closing)
 buttons = ButtonMatrix()
+canrun = True
 def loop():
-    for j in range(len(buttons.columnPins)):
-                # set each output pin to low
-                GPIO.output(buttons.columnPins[j],0)
-                for i in range(len(buttons.rowPins)):
-                    if GPIO.input(buttons.rowPins[i]) == 0:
-                        # button pressed, activate it
-                        buttons.activateButton(i,j)
-                # return each output pin to high
-                GPIO.output(buttons.columnPins[j],1)
-    t = Timer(0.1, loop)
-    t.start()
-t = Timer(0.1, loop)
+    global canrun
+    if canrun :
+        for j in range(len(buttons.columnPins)):
+            # set each output pin to low
+            GPIO.output(buttons.columnPins[j],0)
+            for i in range(len(buttons.rowPins)):
+                if GPIO.input(buttons.rowPins[i]) == 0:
+                    # button pressed, activate it
+                    lblValeur.config(text="bouton " + str(buttons.activateButton(i,j)))
+                    # return each output pin to high
+            GPIO.output(buttons.columnPins[j],1)
+        t = Timer(0.2, loop)
+        t.start()
+    else:
+        exit()
+t = Timer(0.2, loop)
 t.start()
 window.mainloop() # Load the form
     

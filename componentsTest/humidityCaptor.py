@@ -10,7 +10,6 @@ from threading import Timer
 sensor = 11
 # set pin number
 pin = 4
-humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 
 
 def app_lost_focus(event):
