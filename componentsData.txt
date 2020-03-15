@@ -64,7 +64,7 @@
 	 "Description" : "Détecte l'humidité dans l'air ainsi que la température et retourne ces informations.",
          "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Un capteur d'humidité (ou hygromètre) détecte, mesure et signale à la fois l'humidité et la température de l'air. Le rapport entre l'humidité de l'air et la plus grande quantité d'humidité à une température donnée est appelé humidité relative. L'humidité relative devient un facteur important dans la recherche du confort.",
-	 "TestLink" : " humdityCaptor.py",
+	 "TestLink" : "humidityCaptor.py",
 	 "ImageLink" : "HumidityCaptor.jpg",
 	 "ImageX" : 80,
 	 "ImageY" : 20
@@ -170,7 +170,7 @@
 	 "ImageY" : 20
     },
     "TouchCaptor":{
-         "Name" : "Détecteur de pression",
+         "Name" : "Détecteur tactile",
 	 "Description" : "Lorsqu'une pression est exercé sur le capteur, il mesure la pression et retourne l'information.",
          "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Les capteurs tactiles sont sensibles au toucher, à la force ou à la pression. Ils sont l'un des capteurs les plus simples et les plus utiles. Le fonctionnement d'un capteur tactile est similaire à celui d'un simple interrupteur. Lorsqu'il y a contact avec la surface du capteur tactile, le circuit est fermé à l'intérieur du capteur et il y a un flux de courant. Lorsque le contact est relâché, le circuit est ouvert et aucun courant ne circule.",
