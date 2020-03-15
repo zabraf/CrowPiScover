@@ -143,7 +143,7 @@
          "Name" : "Servo moteur",
 	 "Description" : "Le moteur, après réception du commande, effectuera celle-ci et s'arrêtera de lui-même lorsque cette commande sera achevée.",
          "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0"],
-         "Functionnement" : "Pour bien comprendre le fonctionnement du servo, il faut jeter un coup d'oeil sous le capot. À l'intérieur, il y a un dispositif assez simple : un petit moteur à courant continu, un potentiomètre et un circuit de commande. Le moteur est fixé par des engrenages à la roue de contrôle. Lorsque le moteur tourne, la résistance du potentiomètre change, de sorte que le circuit de commande peut réguler avec précision l'amplitude du mouvement et la direction dans laquelle il s'effectue. \n\nLorsque l'arbre du moteur est dans la position souhaitée, l'alimentation du moteur est arrêtée. Sinon, le moteur est tourné dans le sens approprié. La position désirée est envoyée par des impulsions électriques par le fil de signal. La vitesse du moteur est proportionnelle à la différence entre sa position réelle et sa position souhaitée. Ainsi, si le moteur est proche de la position désirée, il tournera lentement, sinon il tournera vite. C'est ce qu'on appelle le contrôle proportionnel. Cela signifie que le moteur ne tournera qu'aussi fort que nécessaire pour accomplir la tâche à accomplir, un petit bonhomme très efficace.",
+         "Functionnement" : "Pour bien comprendre le fonctionnement du servo, il faut jeter un coup d'oeil sous le capot. À l'intérieur, il y a un dispositif assez simple : un petit moteur à courant continu, un potentiomètre et un circuit de commande. Le moteur est fixé par des engrenages à la roue de contrôle. Lorsque le moteur tourne, la résistance du potentiomètre change, de sorte que le circuit de commande peut réguler avec précision l'amplitude du mouvement et la direction dans laquelle il s'effectue.",
 	 "TestLink" : "servo.py",
 	 "ImageLink" : "Servo.jpg",
 	 "ImageX" : 65,
@@ -170,7 +170,7 @@
 	 "ImageY" : 20
     },
     "TouchCaptor":{
-         "Name" : "Détecteur de pression",
+         "Name" : "Détecteur de ",
 	 "Description" : "Lorsqu'une pression est exercé sur le capteur, il mesure la pression et retourne l'information.",
          "Pins" : ["1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
          "Functionnement" : "Les capteurs tactiles sont sensibles au toucher, à la force ou à la pression. Ils sont l'un des capteurs les plus simples et les plus utiles. Le fonctionnement d'un capteur tactile est similaire à celui d'un simple interrupteur. Lorsqu'il y a contact avec la surface du capteur tactile, le circuit est fermé à l'intérieur du capteur et il y a un flux de courant. Lorsque le contact est relâché, le circuit est ouvert et aucun courant ne circule.",
